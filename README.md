@@ -12,7 +12,7 @@ There are four scripts representing successive iterations to build the final ETL
 - ETL_create_database.ipynb
 
 The final script contained two functions:
-- **clean_movie(movie)**: This function is used to iterate through a DataFrame to collect and condense alternate movie titles, as well as clean up column names.
+- **clean_movie()**: This function is used to iterate through a DataFrame to collect and condense alternate movie titles, as well as clean up column names.
 - **extract_transform_load()**: This function is passed three datasets; `wikipedia-movies.json`, `movies_metadata.csv`,and `ratings.csv`. From here, the script performs a long series of data cleaning, joining, and finally adds tables to a SQL database.
 
 ### Screenshots
